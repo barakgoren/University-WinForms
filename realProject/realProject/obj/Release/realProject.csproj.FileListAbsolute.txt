@@ -1,0 +1,11 @@
+C:\Users\barak goren\Desktop\C#\realProject\realProject\bin\Release\realProject.exe.config
+C:\Users\barak goren\Desktop\C#\realProject\realProject\bin\Release\realProject.exe
+C:\Users\barak goren\Desktop\C#\realProject\realProject\bin\Release\realProject.pdb
+C:\Users\barak goren\Desktop\C#\realProject\realProject\obj\Release\realProject.csproj.AssemblyReference.cache
+C:\Users\barak goren\Desktop\C#\realProject\realProject\obj\Release\realProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\barak goren\Desktop\C#\realProject\realProject\obj\Release\realProject.Form1.resources
+C:\Users\barak goren\Desktop\C#\realProject\realProject\obj\Release\realProject.Properties.Resources.resources
+C:\Users\barak goren\Desktop\C#\realProject\realProject\obj\Release\realProject.csproj.GenerateResource.cache
+C:\Users\barak goren\Desktop\C#\realProject\realProject\obj\Release\realProject.csproj.CoreCompileInputs.cache
+C:\Users\barak goren\Desktop\C#\realProject\realProject\obj\Release\realProject.exe
+C:\Users\barak goren\Desktop\C#\realProject\realProject\obj\Release\realProject.pdb

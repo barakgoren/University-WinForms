@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{634A1477-EC47-4206-BE07-B490967A5853}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>realProject</RootNamespace>
+    <AssemblyName>realProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data models\Course.cs" />
+    <Compile Include="Data models\FileHandler.cs" />
+    <Compile Include="Data models\HeadDepartment.cs" />
+    <Compile Include="Data models\Lecturer.cs" />
+    <Compile Include="Data models\Message.cs" />
+    <Compile Include="Data models\Person.cs" />
+    <Compile Include="Data models\FacultyProgram.cs" />
+    <Compile Include="Data models\Student.cs" />
+    <Compile Include="Data models\ThemeColor.cs" />
+    <Compile Include="Data models\Tutor.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My Forms\AddHeadPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\AdminPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\AdminTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\CourseInfoPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\CoursesPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\HomePage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\InfoDisplay.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\InfoPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\LecturerRegistration.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\LoginPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\MainMessagePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\MainMessagesPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\MainPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\MenuPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\MessagePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\PictureUpload.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\RegisterPanel1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\SearchForUser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\SearchPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\SendMessagePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\SortingButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\StudentRegistration.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Forms\UserProfile.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="account_avatar_face_man_people_profile_user_icon_123197.ico" />
+    <None Include="Resources\right-arrow.png" />
+    <None Include="Resources\arrows.png" />
+    <None Include="Resources\Ariel_University_Logo - Copy.png" />
+    <None Include="Resources\magnifying-glass.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\email.png" />
+    <None Include="Resources\manager.png" />
+    <None Include="Resources\noprofile.jpg" />
+    <Content Include="Resources\unnamed.jpg" />
+    <None Include="Resources\upload %282%29.png" />
+    <None Include="Resources\upload %281%29.png" />
+    <None Include="Resources\upload1.png" />
+    <None Include="Resources\upload.png" />
+    <None Include="Resources\Ariel_University_Logo.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\courses.png" />
+    <None Include="Resources\assesments.png" />
+    <None Include="Resources\myprofile1.png" />
+    <None Include="Resources\myprofile.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
